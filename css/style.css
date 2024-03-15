@@ -27,13 +27,17 @@
 /*----------------------------------------*/
 /* Template default CSS
 /*----------------------------------------*/
+html{
+    ::-webkit-scrollbar {
+        display: none;
+    }
+}
 html,
 body {
     height: 100%;
     font-family: "Josefin Sans", sans-serif;
     -webkit-font-smoothing: antialiased;
 }
-
 h1,
 h2,
 h3,
@@ -2277,5 +2281,5 @@ svg {
       .client-card p {
         margin-top: 1rem;
         color: #666;
-      }
+    }
 }
