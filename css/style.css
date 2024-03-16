@@ -1017,6 +1017,7 @@ svg {
 
 .footer__top__social {
     text-align: right;
+    margin-right: -100%;
 }
 .footer__top__social a {
     display: inline-block;
