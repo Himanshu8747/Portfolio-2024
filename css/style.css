@@ -110,6 +110,20 @@ ol {
 /*---------------------
   Helper CSS
 -----------------------*/
+.project-demo{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.project-demo a{
+    color: #d8b4fe !important;
+}
+.border{
+    border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+    box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+    padding: 15px;
+}
+
 #projects {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -2329,11 +2343,13 @@ svg {
         margin: 1rem;
         text-align: center;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        transition: transform 0.3s ease-in-out;
+        transition: all 0.4s ease 0s !important;
       }
       
       .client-card:hover {
-        transform: translateY(-5px);
+        transform: scale(1.25) !important;
+        overflow: hidden !important;
+        border: 2.2px solid rgb(255 255 255 / 88%) !important;
       }
       
       .client-card img {
